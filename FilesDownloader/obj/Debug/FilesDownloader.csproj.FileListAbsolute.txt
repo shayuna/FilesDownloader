@@ -1,0 +1,8 @@
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\bin\Debug\FilesDownloader.exe.config
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\bin\Debug\FilesDownloader.exe
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\bin\Debug\FilesDownloader.pdb
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.Properties.Resources.resources
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.csproj.GenerateResource.Cache
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.exe
+c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.pdb
+C:\Users\shay\Documents\Visual Studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.Form1.resources
