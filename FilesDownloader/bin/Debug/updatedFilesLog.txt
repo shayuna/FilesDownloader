@@ -1,2 +1,12 @@
-http://www.lawdata.co.il/lawdata_face_lift_test/cc1.pdf - not found on server
-http://www.lawdata.co.il/lawdata_face_lift_test/cc7.pdf - not found on server
+itc101_2018.pdf - not found on remote computer
+itc105.pdf - not found on local computer
+106.pdf - not found on local computer
+itc_116.pdf - not found on local computer
+itc116a.pdf - not found on local computer
+itc116c.pdf - not found on local computer
+itc116d.pdf - not found on local computer
+itc117.pdf - not found on local computer
+itc119_11.pdf - not found on local computer
+itc120.pdf - not found on local computer
+itc127.pdf - not found on local computer
+itc134_‬2018.pdf - not found on remote computer

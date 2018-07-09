@@ -6,3 +6,4 @@ c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloa
 c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.exe
 c:\users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.pdb
 C:\Users\shay\Documents\Visual Studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.Form1.resources
+C:\Users\shay\documents\visual studio 2015\Projects\FilesDownloader\FilesDownloader\obj\Debug\FilesDownloader.csprojResolveAssemblyReference.cache

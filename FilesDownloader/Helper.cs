@@ -18,6 +18,22 @@ namespace FilesDownloader
         {
             return File.ReadAllBytes(sPath1).SequenceEqual(File.ReadAllBytes(sPath2));
         }
+        public bool isFileExistOnRemote(string sPath, string sSuffix)
+        {
+            bool bExists = true;
+            string[] arLines = readAllLinesInFl(sPath);
+            if (sSuffix == "pdf" && arLines[0].ToLower().IndexOf("html") > -1) bExists = false;
+            return bExists;
+            
+        }
+        public string getFileSuffix(string sPath)
+        {
+            string sSuffix = "";
+            Regex re = new Regex(@"[.]([^.]+)$");
+            Match mt = re.Match(sPath);
+            if (mt.Success) sSuffix= mt.Groups[1].Value;
+            return sSuffix;
+        }
         public string getFileNmFromResourceUrl(string sResourceUrl)
         {
             Regex re = new Regex(@"[^\/]+$");

@@ -36,9 +36,14 @@ namespace FilesDownloader
                         string sFileNm = oHelper.getFileNmFromResourceUrl(sResourceUrl);
                         string sPath1 = AppDomain.CurrentDomain.BaseDirectory + sFileNm,
                             sPath2 = AppDomain.CurrentDomain.BaseDirectory + sDemaFlNm;
+                        bool bIsFileExistOnRemote= oHelper.isFileExistOnRemote(sPath2, oHelper.getFileSuffix(sFileNm));
                         bool bOverrideLocalFile = false;
 
-                        if (!File.Exists(sPath1))
+                        if (!bIsFileExistOnRemote)
+                        {
+                            sOutput += sFileNm + " - not found on remote computer" + "\r\n";
+                        }
+                        else if (!File.Exists(sPath1))
                         {
                             sOutput += sFileNm + " - not found on local computer" + "\r\n";
                             bOverrideLocalFile = true;
